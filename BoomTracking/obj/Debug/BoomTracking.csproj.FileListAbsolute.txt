@@ -1,1 +1,13 @@
 C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\BoomTracking.exe.config
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\BoomTracking.exe
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\BoomTracking.pdb
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.Properties.Resources.resources
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.csproj.GenerateResource.Cache
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.exe
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.pdb
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.Migrations.InitialModel.resources
