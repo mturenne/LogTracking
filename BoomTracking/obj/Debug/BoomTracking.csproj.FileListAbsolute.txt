@@ -94,4 +94,3 @@ C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\es\DevExpr
 C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
 C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
 C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.exe.licenses
-C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.Migrations.ChangingFKAndColumnsToLogsAndBoomTable.resources

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoomTracking
+namespace BoomUI
 {
     public class Log
     {
-       
+
 
         public int Id { get; set; }
         public string Species { get; set; }
@@ -17,6 +17,6 @@ namespace BoomTracking
         public int BoomId { get; set; }
         public Boom Boom { get; set; }
 
-       
+
     }
 }
