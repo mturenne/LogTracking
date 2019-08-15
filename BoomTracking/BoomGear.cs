@@ -10,5 +10,6 @@ namespace BoomTracking
     {
         public int Id { get; set; }
         public Boom Boom { get; set; }
+        public string Description { get; set; }
     }
 }
