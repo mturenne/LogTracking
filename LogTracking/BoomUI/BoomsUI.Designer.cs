@@ -1,6 +1,6 @@
 ﻿namespace BoomUI
 {
-    partial class frmMain
+    partial class BoomsUI
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            this.LocationbindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BoomsUI));
+            this.boomsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.boomsBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -42,36 +43,32 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.locationDataGridView = new System.Windows.Forms.DataGridView();
-            this.boomDataGridView = new System.Windows.Forms.DataGridView();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BoomsDataGridView = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.locationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.isActiveDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.logsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.boomGearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.boomSticksDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.boomsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.LocationbindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.boomsButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.LocationbindingNavigator)).BeginInit();
-            this.LocationbindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.locationDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boomDataGridView)).BeginInit();
+            this.saveToolstrip = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.boomsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LocationbindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boomsBindingNavigator)).BeginInit();
+            this.boomsBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BoomsDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // LocationbindingNavigator
+            // boomsBindingSource
             // 
-            this.LocationbindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.LocationbindingNavigator.BindingSource = this.LocationbindingSource;
-            this.LocationbindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.LocationbindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.LocationbindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.boomsBindingSource.DataSource = typeof(Boom);
+            // 
+            // boomsBindingNavigator
+            // 
+            this.boomsBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.boomsBindingNavigator.BindingSource = this.boomsBindingSource;
+            this.boomsBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.boomsBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.boomsBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -83,17 +80,17 @@
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
-            this.toolStripButton1});
-            this.LocationbindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.LocationbindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.LocationbindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.LocationbindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.LocationbindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.LocationbindingNavigator.Name = "LocationbindingNavigator";
-            this.LocationbindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.LocationbindingNavigator.Size = new System.Drawing.Size(495, 25);
-            this.LocationbindingNavigator.TabIndex = 0;
-            this.LocationbindingNavigator.Text = "bindingNavigator1";
+            this.saveToolstrip});
+            this.boomsBindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.boomsBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.boomsBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.boomsBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.boomsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.boomsBindingNavigator.Name = "boomsBindingNavigator";
+            this.boomsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.boomsBindingNavigator.Size = new System.Drawing.Size(763, 25);
+            this.boomsBindingNavigator.TabIndex = 0;
+            this.boomsBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -180,53 +177,29 @@
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
-            // locationDataGridView
+            // BoomsDataGridView
             // 
-            this.locationDataGridView.AutoGenerateColumns = false;
-            this.locationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.locationDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.BoomsDataGridView.AutoGenerateColumns = false;
+            this.BoomsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.BoomsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn});
-            this.locationDataGridView.DataSource = this.LocationbindingSource;
-            this.locationDataGridView.Location = new System.Drawing.Point(12, 28);
-            this.locationDataGridView.Name = "locationDataGridView";
-            this.locationDataGridView.Size = new System.Drawing.Size(471, 150);
-            this.locationDataGridView.TabIndex = 1;
-            // 
-            // boomDataGridView
-            // 
-            this.boomDataGridView.AutoGenerateColumns = false;
-            this.boomDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.boomDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn1,
             this.locationDataGridViewTextBoxColumn,
             this.isActiveDataGridViewCheckBoxColumn,
-            this.nameDataGridViewTextBoxColumn1,
+            this.nameDataGridViewTextBoxColumn,
             this.logsDataGridViewTextBoxColumn,
             this.boomGearDataGridViewTextBoxColumn,
             this.boomSticksDataGridViewTextBoxColumn});
-            this.boomDataGridView.DataSource = this.boomsBindingSource;
-            this.boomDataGridView.Location = new System.Drawing.Point(12, 197);
-            this.boomDataGridView.Name = "boomDataGridView";
-            this.boomDataGridView.Size = new System.Drawing.Size(471, 150);
-            this.boomDataGridView.TabIndex = 2;
+            this.BoomsDataGridView.DataSource = this.boomsBindingSource;
+            this.BoomsDataGridView.Location = new System.Drawing.Point(12, 28);
+            this.BoomsDataGridView.Name = "BoomsDataGridView";
+            this.BoomsDataGridView.Size = new System.Drawing.Size(746, 150);
+            this.BoomsDataGridView.TabIndex = 1;
             // 
-            // toolStripButton1
+            // idDataGridViewTextBoxColumn
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "toolStripButton1";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
-            // 
-            // idDataGridViewTextBoxColumn1
-            // 
-            this.idDataGridViewTextBoxColumn1.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn1.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
-            this.idDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             // 
             // locationDataGridViewTextBoxColumn
             // 
@@ -240,11 +213,11 @@
             this.isActiveDataGridViewCheckBoxColumn.HeaderText = "IsActive";
             this.isActiveDataGridViewCheckBoxColumn.Name = "isActiveDataGridViewCheckBoxColumn";
             // 
-            // nameDataGridViewTextBoxColumn1
+            // nameDataGridViewTextBoxColumn
             // 
-            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn1.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             // 
             // logsDataGridViewTextBoxColumn
             // 
@@ -264,57 +237,31 @@
             this.boomSticksDataGridViewTextBoxColumn.HeaderText = "BoomSticks";
             this.boomSticksDataGridViewTextBoxColumn.Name = "boomSticksDataGridViewTextBoxColumn";
             // 
-            // boomsBindingSource
+            // saveToolstrip
             // 
-            this.boomsBindingSource.DataMember = "Booms";
-            this.boomsBindingSource.DataSource = this.LocationbindingSource;
+            this.saveToolstrip.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.saveToolstrip.Image = ((System.Drawing.Image)(resources.GetObject("saveToolstrip.Image")));
+            this.saveToolstrip.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.saveToolstrip.Name = "saveToolstrip";
+            this.saveToolstrip.Size = new System.Drawing.Size(23, 22);
+            this.saveToolstrip.Text = "saveToolstrip1";
+            this.saveToolstrip.Click += new System.EventHandler(this.saveToolstrip_Click);
             // 
-            // LocationbindingSource
-            // 
-            this.LocationbindingSource.DataSource = typeof(Location);
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // boomsButton
-            // 
-            this.boomsButton.Location = new System.Drawing.Point(353, 369);
-            this.boomsButton.Name = "boomsButton";
-            this.boomsButton.Size = new System.Drawing.Size(112, 23);
-            this.boomsButton.TabIndex = 3;
-            this.boomsButton.Text = "Booms";
-            this.boomsButton.UseVisualStyleBackColor = true;
-            this.boomsButton.Click += new System.EventHandler(this.boomsButton_Click);
-            // 
-            // frmMain
+            // BoomUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 414);
-            this.Controls.Add(this.boomsButton);
-            this.Controls.Add(this.boomDataGridView);
-            this.Controls.Add(this.locationDataGridView);
-            this.Controls.Add(this.LocationbindingNavigator);
-            this.Name = "frmMain";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.frmMain_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.LocationbindingNavigator)).EndInit();
-            this.LocationbindingNavigator.ResumeLayout(false);
-            this.LocationbindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.locationDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boomDataGridView)).EndInit();
+            this.ClientSize = new System.Drawing.Size(763, 483);
+            this.Controls.Add(this.BoomsDataGridView);
+            this.Controls.Add(this.boomsBindingNavigator);
+            this.Name = "BoomUI";
+            this.Text = "BoomUI";
+            this.Load += new System.EventHandler(this.BoomUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.boomsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LocationbindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boomsBindingNavigator)).EndInit();
+            this.boomsBindingNavigator.ResumeLayout(false);
+            this.boomsBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BoomsDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,8 +269,8 @@
 
         #endregion
 
-        private System.Windows.Forms.BindingSource LocationbindingSource;
-        private System.Windows.Forms.BindingNavigator LocationbindingNavigator;
+        private System.Windows.Forms.BindingSource boomsBindingSource;
+        private System.Windows.Forms.BindingNavigator boomsBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
@@ -335,20 +282,14 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.DataGridView locationDataGridView;
+        private System.Windows.Forms.DataGridView BoomsDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridView boomDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn locationDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewCheckBoxColumn isActiveDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn logsDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn boomGearDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn boomSticksDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource boomsBindingSource;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.Button boomsButton;
+        private System.Windows.Forms.ToolStripButton saveToolstrip;
     }
 }
-

@@ -51,5 +51,11 @@ namespace BoomUI
             base.OnClosing(e);
             this._context.Dispose();
         }
+
+        private void boomsButton_Click(object sender, EventArgs e)
+        {
+            var boomsForm = new BoomsUI();
+            boomsForm.Show();
+        }
     }
 }
