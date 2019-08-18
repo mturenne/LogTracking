@@ -94,3 +94,12 @@ C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\es\DevExpr
 C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
 C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
 C:\Users\Owner\Documents\Projects\BoomTracking\BoomTracking\obj\Debug\BoomTracking.exe.licenses
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\bin\Debug\BoomTracking.exe.config
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.csprojResolveAssemblyReference.cache
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.frmMain.resources
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.Migrations.InitialModel.resources
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.Migrations.AddedColumnsToBoomAndBoomGear.resources
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.Migrations.AddNameColumnToBoomsTable.resources
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.Properties.Resources.resources
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.csproj.GenerateResource.Cache
+C:\Users\mture\Documents\Projects\LogTracking\BoomTracking\obj\Debug\BoomTracking.exe.licenses

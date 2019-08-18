@@ -17,6 +17,10 @@ namespace BoomUI
         public int BoomId { get; set; }
         public Boom Boom { get; set; }
 
+        public override string ToString()
+        {
+            return Species + " - " + Volume;
+        }
 
     }
 }
