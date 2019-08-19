@@ -19,6 +19,7 @@ namespace BoomUI
         public virtual ObservableListSource<Log> Logs { get { return _logs; } }
         public virtual ObservableListSource<BoomGear> Boomgear { get { return _boomgear; } }
         public virtual ObservableListSource<BoomStick> Boomsticks { get { return _boomsticks; } }
+        
         //public ICollection<Log> Logs { get; set; }
         //public IList<BoomGear> BoomGear { get; set; }
         //public IList<BoomStick> BoomSticks { get; set; }
